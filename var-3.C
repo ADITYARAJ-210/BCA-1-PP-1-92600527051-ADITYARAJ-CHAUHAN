@@ -1,4 +1,4 @@
-	       #include <stdio.h>
+#include <stdio.h>
 #include <conio.h>
 
 int main()
@@ -17,22 +17,26 @@ int main()
     {
 	if (a > c)
 	{
-	    printf("%d is the highest", a+b+c);
+		printf("th highest number is %d",a);
+		printf("\n%d", a+b+c);
 	}
 	else
 	{
-	    printf("%d is the highest", a*b*c);
+		printf("the highest number is %d",b);
+		printf("\n%d", a*b*c);
 	}
     }
     else
     {
 	if (b > c)
 	{
-	    printf("%d is the highest", a-b-c);
+		printf("%d is the highest",b);
+		printf("\n%d", a-b-c);
 	}
 	else
 	{
-	    printf("%d is the highest", a*b*c);
+		printf("%d is the highest", c);
+		printf("\n%d", a*b*c);
 	}
     }
     getch();
